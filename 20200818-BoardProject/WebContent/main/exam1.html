@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=EUC-KR">
+<title>Insert title here</title>
+<!-- CSS / JavaScript -->
+
+</head>
+<body>
+<!-- 
+	화면출력 부분 ==> HTML : <> 태그+속성
+					<a href="">
+				    태그 + 속성 =======> 사용자 정의가 없다. (지정된 태그만 사용 가능)
+	<문자 관련>
+	<목록>
+	<입력>
+	<이동>
+ -->
+
+	<a href="https://www.naver.com/" target="_blank">네이버</a>
+	<br>
+	<!-- 상위 폴더에 사진이 있을 때 : ../사진 경로
+	<img src="../image/movie.jpg" width=350 height=450 title="제목"> -->
+	
+	<!-- 같은 폴더에 사진이 있을 때  : ./사진 경로  or 사진경로-->
+	<img src="image/movie.jpg" width=350 height=450 title="제목"><br>
+	<input type="text" size=15><br>
+	<input type="password" size=15><br>
+	<input type="hidden" size=15><br>
+	<input type="file" size=15><br>
+	<input type="date" size=15><br>
+	<input type="image" src="image/movie.jpg" width=200 height=100><br>
+	<input type="submit" value="전송"><br>
+	<input type="submit" value="확인"><br>
+	<select>
+		<option>이름</option>
+		<option>제목</option>
+		<option>내용</option>
+	</select><br>
+	<textarea rows="10" cols="50"></textarea><br>
+	<!-- name이 같으면 같은 그룹에 묶여서 중복체크 불가해짐 -->
+	성별:<input type=radio name=sex>남자<input type=radio name=sex>여자<br>
+	취미:<input type="checkbox">등산<input type="checkbox">개발
+	<input type="checkbox">공부<input type="checkbox">낚시
+	<input type="checkbox">운동
+</body>
+</html>
